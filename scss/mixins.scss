@@ -1,0 +1,68 @@
+@mixin transition($transition-time:0.2s) {
+    -webkit-transition: all $transition-time ease-out;
+    -moz-transition: all $transition-time ease-out;
+    -ms-transition: all $transition-time ease-out;
+    -o-transition: all $transition-time ease-out;
+    transition: all $transition-time ease-out;
+}
+@mixin removeglow {
+    outline: none;
+    border: none;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+@mixin background-cover() {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+@mixin makewhite {
+    filter: brightness(0) invert(1);
+}
+@mixin undraggable {
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+@mixin translate($x:0px, $y:-10px) {
+    -moz-transform: translate($x, $y);
+    -ms-transform: translate($x, $y);
+    -o-transform: translate($x, $y);
+    -webkit-transform: translate($x, $y);
+    transform: translate($x, $y);
+}
+@mixin bottomshadow {
+    -webkit-box-shadow: 0 1px 20px 0 rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 1px 20px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 1px 20px 0 rgba(0,0,0,0.3);
+}
+@mixin textshadow {
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.6);
+}
+@mixin addgradienthor ($left:#4776e6, $right:#8e54e9) {
+    background-color: $left;
+    background: -moz-linear-gradient(left, rgba($left,1) 0%, rgba($right,1) 100%);
+    background: -webkit-linear-gradient(left, rgba($left,1) 0%,rgba($right,1) 100%);
+    background: linear-gradient(to right, rgba($left,1) 0%,rgba($right,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr= $left, endColorstr= $right, GradientType=1 );
+}
+@mixin addgradient($left:#b06ab3, $right:#4568dc) {
+    background: $left;
+    background: -moz-linear-gradient(-45deg, rgba($left,1) 0%, rgba($right,1) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba($left,1) 0%,rgba($right,1) 100%);
+    background: linear-gradient(135deg, rgba($left,1) 0%,rgba($right,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr= $left, endColorstr= $right, GradientType=1 );
+}
+@mixin rotate90 {
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+}
+@mixin mainfont {
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
+}
