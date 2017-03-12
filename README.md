@@ -1,13 +1,13 @@
-# About
+# Venom
 Venom is a simple, yet eye-catching landing page for a VPN service, based on Bootstrap 3.
 
-# Demo
+## Demo
 [Venom Landing Page](https://xwebgr.github.io/Venom-Landing-Page)
 
-# Preview
+## Preview
 ![Venom VPN Landing Page](http://i.imgur.com/8JBVSz2.jpg "Venom VPN Landing Page")
 
-# Credits
+## Credits
 * [Bootstrap](http://getbootstrap.com)
 * [jQuery](https://jquery.com)
 * [Font Awesome](http://fontawesome.io)
@@ -15,7 +15,7 @@ Venom is a simple, yet eye-catching landing page for a VPN service, based on Boo
 * [Webalys Freebies from Flaticon](http://www.flaticon.com/authors/webalys-freebies)
 * [Unsplash](https://unsplash.com)
 
-# License
+## License
 Venom is licensed under The MIT License (MIT). Which means that you can use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software. But you always need to state that xWeb is the original author of this template.
 
 Project is developed and maintained by [xWeb](https://xweb.gr/).
