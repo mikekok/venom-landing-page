@@ -2,7 +2,7 @@
 Venom is a simple, yet eye-catching landing page for a VPN service, based on Bootstrap 3.
 
 ## Demo
-[Venom Landing Page](https://xwebgr.github.io/Venom-Landing-Page)
+[Venom Landing Page](https://mikekok.github.io/Venom-Landing-Page)
 
 ## Preview
 ![Venom VPN Landing Page](http://i.imgur.com/J9RDfuR.jpg "Venom VPN Landing Page")
